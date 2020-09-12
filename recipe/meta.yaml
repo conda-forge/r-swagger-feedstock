@@ -1,4 +1,4 @@
-{% set version = '3.9.2' %}
+{% set version = "3.33.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/swagger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/swagger/swagger_{{ version }}.tar.gz
-  sha256: 0917f2c6508697fc4d9cb4bc82c07767eff70f996251eee681fde362f65f4c8f
+  sha256: 8d45e5ec6247046f33f45df5586ab1171a71f926ac995f0585b32a93ba4f50fb
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,8 +37,7 @@ about:
   home: https://github.com/rstudio/swagger
   license: Apache 2.0
   license_file: LICENSE
-  summary: 'A collection of ''HTML'', ''JavaScript'', and ''CSS'' assets that dynamically generate
-    beautiful documentation from a ''Swagger'' compliant API: <https://swagger.io/specification/>.'
+  summary: "A collection of 'HTML', 'JavaScript', and 'CSS' assets that dynamically generate beautiful documentation from a 'Swagger' compliant API: <https://swagger.io/specification/>."
   license_family: APACHE
 
 extra:
