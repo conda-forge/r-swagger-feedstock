@@ -1,4 +1,4 @@
-{% set version = "3.33.0" %}
+{% set version = "3.33.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/swagger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/swagger/swagger_{{ version }}.tar.gz
-  sha256: 8d45e5ec6247046f33f45df5586ab1171a71f926ac995f0585b32a93ba4f50fb
+  sha256: 528369b04c6142112e05ee8b950ca1c01b3e390a4515eacb0fa17db98bafafd1
 
 build:
   merge_build_host: true  # [win]
