@@ -1,11 +1,11 @@
-About r-swagger
-===============
+About r-swagger-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-swagger-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/swagger
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-swagger-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of 'HTML', 'JavaScript', and 'CSS' assets that dynamically generate beautiful documentation from a 'Swagger' compliant API: <https://swagger.io/specification/>.
 
